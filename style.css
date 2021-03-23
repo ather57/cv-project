@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*------boby style start------*/
+body {
+    background-color: #95a5a6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #4bcffa;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    
+}
+
+.profile-image {
+    width: 110px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #a55eea;
+}
+
+.header-contact {
+    float: right;
+    padding: 15px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: #5f27cd;
+}
+
+.clear-div {
+    clear: both;
+}
+
+hr {
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*-------personal section start-----*/
+#personal-section {}
+
+.content {
+    margin-bottom: 20px;
+
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+    text-transform: capitalize;
+
+
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.common-hr {
+    border: 2px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+/*-------educaion section start-----*/
+.ed-tamplate-left {
+    float: left;
+    width: 45%;
+}
+
+.edu-tamplate-right {
+    float: right;
+    width: 45%;
+}
+
+
+/*------at present activities start------*/
+
+.activiies-tamplate-left {
+    float: left;
+    width: 45%;
+}
+
+.activiies-tamplate-right {
+    float: right;
+    width: 45%;
+}
+
+/*-------footer section start-----*/
+.bottom-container {
+    background-color: #5f27cd;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.bottom-container p {
+    color: white;
+    margin: 10px auto;
+}
+
+.bottom-container a:hover {
+    color: #f368e0;
+    font-size: 15px;
+    text-decoration: underline;
+}
